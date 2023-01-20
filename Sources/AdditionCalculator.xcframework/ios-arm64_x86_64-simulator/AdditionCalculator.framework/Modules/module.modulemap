@@ -1,0 +1,11 @@
+framework module AdditionCalculator {
+  umbrella header "AdditionCalculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AdditionCalculator.Swift {
+  header "AdditionCalculator-Swift.h"
+  requires objc
+}

@@ -1,0 +1,122 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AdditionCalculator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Adder",
+        "printedName": "Adder",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Adder",
+                "printedName": "AdditionCalculator.Adder",
+                "usr": "s:18AdditionCalculator5AdderC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18AdditionCalculator5AdderCACycfc",
+            "mangledName": "$s18AdditionCalculator5AdderCACycfc",
+            "moduleName": "AdditionCalculator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addIntegerOperands",
+            "printedName": "addIntegerOperands(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AdditionCalculator5AdderC18addIntegerOperands10operandOne0G3TwoS2i_SitF",
+            "mangledName": "$s18AdditionCalculator5AdderC18addIntegerOperands10operandOne0G3TwoS2i_SitF",
+            "moduleName": "AdditionCalculator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addDoubleOperands",
+            "printedName": "addDoubleOperands(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18AdditionCalculator5AdderC17addDoubleOperands10operandOne0G3TwoS2d_SdtF",
+            "mangledName": "$s18AdditionCalculator5AdderC17addDoubleOperands10operandOne0G3TwoS2d_SdtF",
+            "moduleName": "AdditionCalculator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18AdditionCalculator5AdderC",
+        "mangledName": "$s18AdditionCalculator5AdderC",
+        "moduleName": "AdditionCalculator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

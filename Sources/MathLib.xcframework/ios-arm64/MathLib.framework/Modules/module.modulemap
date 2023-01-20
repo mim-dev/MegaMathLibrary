@@ -1,0 +1,11 @@
+framework module MathLib {
+  umbrella header "MathLib.h"
+
+  export *
+  module * { export * }
+}
+
+module MathLib.Swift {
+  header "MathLib-Swift.h"
+  requires objc
+}

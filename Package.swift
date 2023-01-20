@@ -4,25 +4,27 @@
 import PackageDescription
 
 let package = Package(
-    name: "MegaMathLibrary",
-    products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "MegaMathLibrary",
-            targets: ["MegaMathLibrary"]),
+    name: "MegaMathLib",
+    platforms: [
+        .iOS(.v14)
     ],
-    dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+    products: [
+        .library(
+            name: "MathLib",
+            targets: ["MegaMathLibTargets"]),
+        .library(
+            name: "MathLibEx",
+            targets: ["MegaMathLibTargets"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package. A target can define a module or a test suite.
-        // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(
-            name: "MegaMathLibrary",
-            dependencies: []),
-        .testTarget(
-            name: "MegaMathLibraryTests",
-            dependencies: ["MegaMathLibrary"]),
+        .binaryTarget(name: "MathLib", path: "./Sources/MathLib.xcframework"),
+        .binaryTarget(name: "MathLibEx", path: "./Sources/MathLibEx.xcframework"),
+        .binaryTarget(name: "AdditionCalculator", path: "./Sources/AdditionCalculator.xcframework"),
+        .target(name: "MegaMathLibTargets", dependencies: [
+            .target(name: "MathLib", condition: .when(platforms: [.iOS])),
+            .target(name: "MathLibEx", condition: .when(platforms: [.iOS])),
+            .target(name: "AdditionCalculator", condition: .when(platforms: [.iOS])),
+            ],
+            path:"./Sources/MegaMathLibTargets")
     ]
 )

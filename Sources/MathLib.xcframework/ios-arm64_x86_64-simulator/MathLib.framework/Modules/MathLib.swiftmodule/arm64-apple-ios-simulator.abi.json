@@ -1,0 +1,129 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MathLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdditionCalculator",
+        "printedName": "AdditionCalculator",
+        "declKind": "Import",
+        "moduleName": "MathLib"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Math",
+        "printedName": "Math",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Math",
+                "printedName": "MathLib.Math",
+                "usr": "s:7MathLib0A0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7MathLib0A0CACycfc",
+            "mangledName": "$s7MathLib0A0CACycfc",
+            "moduleName": "MathLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addition",
+            "printedName": "addition(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7MathLib0A0C8addition10operandOne0D3TwoS2i_SitF",
+            "mangledName": "$s7MathLib0A0C8addition10operandOne0D3TwoS2i_SitF",
+            "moduleName": "MathLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subtraction",
+            "printedName": "subtraction(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7MathLib0A0C11subtraction10operandOne0D3TwoS2i_SitF",
+            "mangledName": "$s7MathLib0A0C11subtraction10operandOne0D3TwoS2i_SitF",
+            "moduleName": "MathLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7MathLib0A0C",
+        "mangledName": "$s7MathLib0A0C",
+        "moduleName": "MathLib",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

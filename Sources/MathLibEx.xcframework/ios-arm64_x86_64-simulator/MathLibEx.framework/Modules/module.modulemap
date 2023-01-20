@@ -1,0 +1,11 @@
+framework module MathLibEx {
+  umbrella header "MathLibEx.h"
+
+  export *
+  module * { export * }
+}
+
+module MathLibEx.Swift {
+  header "MathLibEx-Swift.h"
+  requires objc
+}

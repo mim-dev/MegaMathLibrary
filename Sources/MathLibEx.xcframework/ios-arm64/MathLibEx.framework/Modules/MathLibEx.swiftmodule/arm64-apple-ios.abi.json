@@ -1,0 +1,129 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MathLibEx",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdditionCalculator",
+        "printedName": "AdditionCalculator",
+        "declKind": "Import",
+        "moduleName": "MathLibEx"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MathEx",
+        "printedName": "MathEx",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MathEx",
+                "printedName": "MathLibEx.MathEx",
+                "usr": "s:9MathLibEx0aC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9MathLibEx0aC0CACycfc",
+            "mangledName": "$s9MathLibEx0aC0CACycfc",
+            "moduleName": "MathLibEx",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addition",
+            "printedName": "addition(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MathLibEx0aC0C8addition10operandOne0E3TwoS2i_SitF",
+            "mangledName": "$s9MathLibEx0aC0C8addition10operandOne0E3TwoS2i_SitF",
+            "moduleName": "MathLibEx",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addition",
+            "printedName": "addition(operandOne:operandTwo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9MathLibEx0aC0C8addition10operandOne0E3TwoS2d_SdtF",
+            "mangledName": "$s9MathLibEx0aC0C8addition10operandOne0E3TwoS2d_SdtF",
+            "moduleName": "MathLibEx",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9MathLibEx0aC0C",
+        "mangledName": "$s9MathLibEx0aC0C",
+        "moduleName": "MathLibEx",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
